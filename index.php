@@ -1,5 +1,5 @@
 <?php
-    define('APP_DIR', dirname( dirname(__FILE__)));
+    define('APP_DIR',  dirname(__FILE__));
     chdir(APP_DIR);
 
     require 'vendor/autoload.php';
