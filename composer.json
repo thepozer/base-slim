@@ -1,25 +1,26 @@
 {
-    "name": "thepozer/base-slim",
-    "description": "My skeleton for slim framework v3 web site/service",
-    "type": "project",
-    "require": {
-        "slim/slim": "^3.0",
-        "thepozer/simple-log": "^1.0",
-        "thepozer/simple-view": "^1.0",
-        "j4mie/paris": "^1.0",
-        "guzzlehttp/psr7": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-			"": "models/"
-		}
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Didier Prolhac",
-            "email": "dev@thepozer.net"
-        }
-    ],
-    "minimum-stability": "stable"
+  "name": "thepozer/base-slim",
+  "description": "My skeleton for slim framework v4 / PHP 8.4 web site/service",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "slim/slim": "^4.0",
+    "slim/psr7": "^1.7",
+    "php-di/php-di": "^7.0",
+    "thepozer/simple-log": "^2.0",
+    "thepozer/simple-view": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "models/"
+  }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Didier Prolhac",
+      "email": "dev@thepozer.net"
+    }
+  ],
+  "minimum-stability": "stable"
 }
